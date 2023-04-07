@@ -1,6 +1,8 @@
 const { readFileSync } = require('fs-extra')
+const { join } = require('path')
 
-const fontStyles = JSON.parse(readFileSync('./styles.json', 'utf8'))
+const stylesPath = join(__dirname, 'styles.json')
+const fontStyles = JSON.parse(readFileSync(stylesPath, 'utf8'))
 
 const getAllFonts = Object.keys(fontStyles)
 
