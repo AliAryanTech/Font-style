@@ -1,0 +1,27 @@
+{
+  "name": "font-style",
+  "version": "1.0.0",
+  "description": "A simple Node.js module that provides ASCII text styling and decoration other text-based projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAryanTech/Font-style.git"
+   },
+  "homepage": "https://github.com/AliAryanTech/Font-style",
+  "keywords": [
+    "font-style",
+    "font",
+    "style",
+    "text",
+    "unicode"
+  ],
+  "author": "AliAryanTech",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
